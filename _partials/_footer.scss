@@ -1,10 +1,28 @@
-footer {
-    background-color: rgba(12, 6, 6, 0.829);
+h6 {
     color: white;
-    font-size: 1.2em;
-    height: 25px;
+    font-size: 0.6em;
     display: block;
     text-align: right;
-    padding-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 5px;
 }
+    footer {
+          background: #323b40;
+          padding: 17px;
+          padding-bottom: 7px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+        }  
+        i {
+            color: #0096a1;
+            font-size: 1.6em;
+        }
+        i:hover {
+            // background-color: #4f585e;
+            color: #0ebac7;
+            font-size: 1.9em;
+        }
+  }

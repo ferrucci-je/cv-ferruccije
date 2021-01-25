@@ -1,0 +1,27 @@
+#contact {
+        display: block;
+        margin: 20px auto;
+        padding: 15px;
+        font-family: "Roboto", Arial;
+        div {
+            padding-top: 20px;
+            input, textarea {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-top: 0px;
+                border-left: 0px;
+                border-right: 0px;
+                border: 2px #dbdddf;
+                border-bottom-style: groove;
+                width: 80%;
+            }
+            p {
+                font-size: 0.80em;
+            }
+            input:hover, textarea:hover {
+                border: 2.5px rgb(243, 100, 243);
+                border-bottom-style: groove;
+                opacity: 0.75;
+            }
+        }
+    }

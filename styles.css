@@ -1,6 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+#contact {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  font-family: "Roboto", Arial;
+}
+
+#contact div {
+  padding-top: 20px;
+}
+
+#contact div input, #contact div textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border: 2px #dbdddf;
+  border-bottom-style: groove;
+  width: 80%;
+}
+
+#contact div p {
+  font-size: 0.80em;
+}
+
+#contact div input:hover, #contact div textarea:hover {
+  border: 2.5px #f364f3;
+  border-bottom-style: groove;
+  opacity: 0.75;
+}
+
 #proyectos {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 #proyectos h3 {
@@ -176,15 +209,43 @@ main #knowledge progress#json::-webkit-progress-value {
   }
 }
 
-footer {
-  background-color: rgba(12, 6, 6, 0.829);
+h6 {
   color: white;
-  font-size: 1.2em;
-  height: 25px;
+  font-size: 0.6em;
   display: block;
   text-align: right;
-  padding-right: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5px;
+}
+
+footer {
+  background: #323b40;
+  padding: 17px;
+  padding-bottom: 7px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+footer i {
+  color: #0096a1;
+  font-size: 1.6em;
+}
+
+footer i:hover {
+  color: #0ebac7;
+  font-size: 1.9em;
 }
 
 #open-list {
