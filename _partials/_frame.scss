@@ -1,0 +1,75 @@
+#frame {
+    position: relative;
+    height: 350px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    // deepskyblue
+    background: #fd9b45;
+    color: #333;
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    transition-property: background-color;
+    transition-duration: 6s;
+      img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          overflow: scroll;
+          display: block;
+          margin: 0 auto;
+          left: -10%;
+          position: relative;
+      }
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .carousel {
+      margin-left: 22px;
+      display: flex;
+      align-items:center;
+      color: white;
+      height: 50px; 
+      overflow: hidden;
+      text-shadow: 2px 2px 2px #e66e05;
+    #web-developer  {
+      font-size: 0.7em;
+    }
+    #seo-analyst {
+        font-size: 0.7em;
+    }
+    #lic {
+      font-size: 0.52em;
+    }
+    #react {
+      font-size: 0.7em;
+    }
+  }
+  
+  .pre {
+      font-size: 2em;
+      width: 65px;
+      font-weight: 900;
+  }
+  
+  .change-outer {
+      align-self: flex-start;
+      font-size: 25px;
+      font-weight: 900;
+      animation: rotate 10s infinite;
+      line-height: 50px;
+      animation-timing-function: step-end;
+      width: 265px;
+      margin: auto;
+  }
+  
+  #frame:target {
+    background-color: rgba(228, 220, 220, 0.801);
+  }

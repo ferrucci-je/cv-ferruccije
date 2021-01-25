@@ -1,0 +1,79 @@
+main {
+    #knowledge {
+        margin: 0 auto;
+        align-items: left;
+        padding: 13px;
+        padding-left: 25px;
+        padding-top: 25px;
+        height: 35%;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        background-color: #242424;
+        opacity: 0.95;
+        font-family: 'Acme', sans-serif;
+        label {
+            padding: 5px;
+            color: white;
+        }
+        h3{
+        padding-bottom: 15px;
+        opacity: 1;
+        color: white;
+        font-weight: bold;
+    }
+    progress {
+        display:inline-block;
+        width:  270px;
+        height: 20px;
+        padding:20px;
+        margin:0;
+        border: 0;
+        background:none;
+        border-radius: 15px;
+        text-align: left;
+        position:relative;
+        font-family: Helvetica, sans-serif;
+        font-size: 0.8em;
+        color: white;
+    }
+    progress::-webkit-progress-bar {
+        height:12px;
+        width:215px;
+        margin:0 auto;
+        background-color: silver;
+        border-radius: 15px;
+        box-shadow:0px 0px 6px #777 inset;
+    }
+    progress::-webkit-progress-value {
+        float:left;
+        height:11px;
+        margin:0px -10px 0 0;
+        background: #F70;
+        border-radius: 15px;
+        box-shadow:0px 0px 6px #777 inset;
+    }
+    
+    progress:after {
+        margin:-26px 0 0 -7px;
+        padding:0;
+        float:left;
+        content: attr(value) '%';
+    }
+    progress#javascript::-webkit-progress-value {
+        background: greenyellow;
+    }
+    progress#sass::-webkit-progress-value {
+        background: aqua;
+    }
+    progress#react::-webkit-progress-value {
+        background: lightpink;
+    }
+    progress#mysql::-webkit-progress-value {
+        background: mediumvioletred;
+    }
+    progress#json::-webkit-progress-value {
+        background: royalblue;
+    }
+    }
+}
