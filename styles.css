@@ -2,8 +2,15 @@
 #contact {
   display: block;
   margin: 20px auto;
+  margin-bottom: 0px;
   padding: 15px;
   font-family: "Roboto", Arial;
+  opacity: 0.55;
+}
+
+#contact h3, #contact p {
+  color: #21205f;
+  opacity: 1;
 }
 
 #contact div {
@@ -16,9 +23,10 @@
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  border: 2px #dbdddf;
+  border: 2px #21205f;
   border-bottom-style: groove;
   width: 80%;
+  opacity: 0.8;
 }
 
 #contact div p {
@@ -34,18 +42,19 @@
 #proyectos {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: #afb2b3c1;
 }
 
 #proyectos h3 {
   padding: 10px;
-  color: #a01455;
+  color: #21205f;
 }
 
 #proyectos div {
   width: 40%;
   height: 100%;
-  -webkit-box-shadow: 3px 3px 3px 3px #9da8a9;
-          box-shadow: 3px 3px 3px 3px #9da8a9;
+  -webkit-box-shadow: 3px 3px 3px 3px #a4a7a7;
+          box-shadow: 3px 3px 3px 3px #a4a7a7;
   margin: 5px auto;
   margin-left: 10px;
   margin-bottom: 15px;
@@ -56,14 +65,19 @@
 }
 
 #proyectos div p {
-  background-color: #ae41ae;
-  color: white;
+  background-color: #21205f;
+  color: #f1a2fc;
   padding: 10px;
+  font-weight: bold;
 }
 
 #proyectos div img {
   width: 100%;
   height: 100%;
+}
+
+#proyectos div:hover {
+  opacity: 0.7;
 }
 
 main #knowledge {
@@ -83,20 +97,20 @@ main #knowledge {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #242424;
+  background-color: white;
   opacity: 0.95;
   font-family: 'Acme', sans-serif;
 }
 
 main #knowledge label {
   padding: 5px;
-  color: white;
+  color: #21205f;
 }
 
 main #knowledge h3 {
   padding-bottom: 15px;
   opacity: 1;
-  color: white;
+  color: #21205f;
   font-weight: bold;
 }
 
@@ -113,7 +127,7 @@ main #knowledge progress {
   position: relative;
   font-family: Helvetica, sans-serif;
   font-size: 0.8em;
-  color: white;
+  color: #21205f;
 }
 
 main #knowledge progress::-webkit-progress-bar {
@@ -220,12 +234,13 @@ h6 {
 }
 
 h6:hover {
-  color: #ffdede;
+  color: #ebee48;
   opacity: 1;
+  cursor: pointer;
 }
 
 footer {
-  background: #323b40;
+  background: #21205f;
   padding: 17px;
   padding-bottom: 7px;
 }
@@ -245,17 +260,18 @@ footer ul {
 }
 
 footer i {
-  color: #0096a1;
+  color: #fca5e5;
   font-size: 1.6em;
 }
 
 footer i:hover {
-  color: #0ebac7;
+  color: #ff8fe1;
   font-size: 1.9em;
+  cursor: pointer;
 }
 
 #open-list {
-  background-color: darkslateblue;
+  background-color: #21205f;
   padding: 10px;
   display: none;
 }
@@ -290,7 +306,7 @@ footer i:hover {
   list-style: none;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: darkslateblue;
+  background-color: #21205f;
   padding: 12px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -353,7 +369,7 @@ a:hover {
 .center {
   position: absolute;
   top: 50%;
-  left: 62%;
+  left: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }

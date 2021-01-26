@@ -8,11 +8,12 @@ h6 {
     padding-top: 5px;
 }
 h6:hover {
-    color: rgb(255, 222, 222);
+    color: #ebee48;
     opacity: 1;
+    cursor: pointer;
 }
     footer {
-          background: #323b40;
+          background: #21205f;
           padding: 17px;
           padding-bottom: 7px;
         ul {
@@ -22,12 +23,12 @@ h6:hover {
             list-style: none;
         }  
         i {
-            color: #0096a1;
+            color: rgb(252, 165, 229);
             font-size: 1.6em;
         }
         i:hover {
-            // background-color: #4f585e;
-            color: #0ebac7;
+            color:rgb(255, 143, 225);
             font-size: 1.9em;
+            cursor: pointer;
         }
   }
