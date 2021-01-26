@@ -8,6 +8,10 @@
   opacity: 0.55;
 }
 
+#contact h3 {
+  font-size: 1.5em;
+}
+
 #contact h3, #contact p {
   color: #21205f;
   opacity: 1;
@@ -42,12 +46,14 @@
 #proyectos {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #afb2b3c1;
+  background-image: url("../assets/grey-background.jpg");
 }
 
 #proyectos h3 {
   padding: 10px;
   color: #21205f;
+  text-shadow: 2px 2px 2px #f1a2fc;
+  font-size: 1.5em;
 }
 
 #proyectos div {
@@ -344,7 +350,7 @@ a:hover {
   -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #fd9b45;
+  background: #3b394b;
   color: #333;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -369,7 +375,8 @@ a:hover {
 .center {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 58%;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -429,9 +436,11 @@ a:hover {
 }
 
 main #experience {
+  background: url(../assets/yellow-background.jpg);
   padding: 15px;
+  opacity: 0.7;
   height: 35%;
-  color: #456;
+  color: orchid;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 }
@@ -439,6 +448,8 @@ main #experience {
 main #experience h3 {
   padding: 15px;
   margin: 5px auto;
+  color: orchid;
+  opacity: 1;
 }
 
 main #experience ul.acorh,

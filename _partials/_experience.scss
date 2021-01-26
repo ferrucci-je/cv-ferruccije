@@ -1,12 +1,16 @@
 main {
     #experience {
+        background: url(../assets/yellow-background.jpg);
         padding: 15px;
+        opacity: 0.7;
         h3 {
             padding: 15px;
             margin: 5px auto;
+            color: orchid;
+            opacity: 1;
         }
         height: 35%;
-        color:  #456;
+        color: orchid;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
         ul.acorh,

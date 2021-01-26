@@ -1,10 +1,13 @@
 #proyectos {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        background-color: #afb2b3c1;
+        background-image: url("../assets/grey-background.jpg");
+
         h3 {
             padding: 10px;
             color: #21205f;
+            text-shadow: 2px 2px 2px rgb(241, 162, 252);
+            font-size: 1.5em;
         }
         div {
             width: 40%;
