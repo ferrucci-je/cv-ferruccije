@@ -6,6 +6,7 @@ h6 {
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 5px;
+    position: static;
 }
 h6:hover {
     color: #ebee48;
@@ -23,12 +24,12 @@ h6:hover {
             list-style: none;
         }  
         i {
-            color: rgb(252, 165, 229);
-            font-size: 1.6em;
+            color: #2375d8;
+            font-size: 1.35em;
         }
         i:hover {
-            color:rgb(255, 143, 225);
-            font-size: 1.9em;
+            color: #2a8aff;
+            font-size: 1.65em;
             cursor: pointer;
         }
   }

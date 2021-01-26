@@ -1,68 +1,92 @@
-main {
-    #experience {
-        background: url(../assets/yellow-background.jpg);
-        padding: 15px;
-        opacity: 0.7;
-        h3 {
-            padding: 15px;
-            margin: 5px auto;
-            color: orchid;
-            opacity: 1;
-        }
-        height: 35%;
-        color: orchid;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
-        ul.acorh,
-        ul.acorh * {
-        margin: auto;
-        padding: 15px;
-        border: 0;
-        transition: all ease-in .5s;
-        }
-        ul.acorh {
-        margin: 10px auto;
-        padding: 0;
-        list-style: none;
-        width: 100%;
-        font-size: 12px;
-        }
-        ul.acorh li a {
-        display: block;
-        padding: 10px 10px 10px 20px;
-        background: #333;
-        color: #eee;
-        border-bottom: 1px solid #000;
-        border-top: 1px solid #666;
-        text-decoration: none;
-        box-sizing: border-box;
-        }
-        ul.acorh li ul {
-        max-height: 0;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        transition: .3s all ease-in;
-        }
-        ul.acorh li li a {
-        padding: 10px 10px 10px 40px;
-        background: #999;
-        color: #000;
-        font-size: 16px;
-        border: 0;
-        border-bottom: 1px solid #ccc;
-        box-sizing: border-box;
-        }
-        ul.acorc li li:last-child a {
-        border-bottom: 0;
-        }
-        ul.acorh li:hover ul {
-        max-height: 300px;
-        transition: .8s all ease-in;
-        }
-        ul.acorh li ul li {
-            font-style: italic;
-        }
+#experience {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    position: static;
+    h3 {
+        font-size: 1.3em;
+        padding: 10px;
+        padding-top: 40px;
+        color: lightslategray;
     }
+    li {
+        padding: 12px;
+        // border-width: 1.5px;
+        // border-style: solid;
+        // border-color: whitesmoke;
+    }
+    #clase1, #clase2, #clase3 {
+        font-size: 0.75em;
+        list-style: none;
+    }
+    #clase3{
+        margin-bottom: 18px;
+    }
+    
+    #li-1 {
+        background-color: lightpink;
+        margin-top: 18px;
+        color: white;
+        font-weight: bold;
+        opacity: 0.85;
+    }
+    #li-1:hover {
+        opacity: 1;
+        padding-top: 35px;
+    }
+    #li-2 {
+        background-color: rgb(176, 247, 176);
+        color: white;
+        font-weight: bold;
+        opacity: 0.85;
+    }
+    #li-3 {
+        background-color: rgb(223, 173, 230);
+        color: white;
+        font-weight: bold;
+        opacity: 0.85;
+        padding-bottom: 35px;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 25px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc;
+      }
+      
+      .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2212";
+      }
+      
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        list-style: none;
+      }
+
+      #li-1, #li-2, #li-3 {
+
+      }
+
 }
