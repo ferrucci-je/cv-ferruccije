@@ -303,12 +303,12 @@ footer ul {
 }
 
 footer i {
-  color: #2375d8;
+  color: #e4dede;
   font-size: 1.35em;
 }
 
 footer i:hover {
-  color: #2a8aff;
+  color: lightyellow;
   font-size: 1.65em;
   cursor: pointer;
 }
@@ -387,7 +387,7 @@ a:hover {
   -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background-color: #fcaaebf3;
+  background-color: #aaf0fcf3;
   color: #333;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -499,7 +499,7 @@ a:hover {
 }
 
 #experience #li-1 {
-  background-color: lightpink;
+  background-color: lightblue;
   margin-top: 18px;
   color: white;
   font-weight: bold;
