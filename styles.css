@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 #contact {
@@ -487,6 +488,7 @@ a:hover {
 
 #experience li {
   padding: 12px;
+  content: '✔';
 }
 
 #experience #clase1, #experience #clase2, #experience #clase3 {

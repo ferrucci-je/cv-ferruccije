@@ -10,9 +10,8 @@
     }
     li {
         padding: 12px;
-        // border-width: 1.5px;
-        // border-style: solid;
-        // border-color: whitesmoke;
+        content: '✔';
+
     }
     #clase1, #clase2, #clase3 {
         font-size: 0.75em;
@@ -85,8 +84,5 @@
         list-style: none;
       }
 
-      #li-1, #li-2, #li-3 {
-
-      }
 
 }
