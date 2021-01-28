@@ -65,10 +65,12 @@
       
       .accordion:after {
         content: '\002B';
-        color: #777;
+        color: rgb(158, 151, 151);
         font-weight: bold;
         float: right;
         margin-left: 5px;
+        font-size: 1.25em;
+        
       }
       
       .active:after {
