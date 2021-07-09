@@ -12,3 +12,8 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

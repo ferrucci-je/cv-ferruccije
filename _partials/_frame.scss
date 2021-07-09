@@ -35,7 +35,7 @@
   .carousel {
       margin-left: 22px;
       display: flex;
-      align-items:center;
+      align-items:baseline;
       color: white;
       height: 50px; 
       overflow: hidden;
@@ -74,3 +74,32 @@
   #frame:target {
     background-color: rgba(228, 220, 220, 0.801);
   }
+
+  .dark button {
+    background-color: black; /* Green */
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 8px;
+    width: 8em;
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+    text-decoration: none;
+    border: 3px solid lightsteelblue;
+    color: lightblue;
+    font-size: 0.6em;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+    position: relative;
+  }
+
+  .dark .btn {
+    height: 2em;
+    width: 2em;
+  }
+
+  

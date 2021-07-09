@@ -1,18 +1,123 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.dark-mode #burger-list {
+  background-color: black;
+}
+
+.dark-mode #burger-list a {
+  color: white;
+}
+
+.dark-mode #frame {
+  background-color: lightgray;
+}
+
+.dark-mode .dark button {
+  background-color: black;
+  /* Green */
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 8px;
+  width: 8em;
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em;
+  text-decoration: none;
+  border: 3px solid darkgray;
+  font-size: 0.6em;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  color: darkgray;
+}
+
+.dark-mode .carousel {
+  text-shadow: 2px 2px 2px #444;
+}
+
+.dark-mode #knowledge {
+  background-color: darkslategray;
+}
+
+.dark-mode #knowledge h3 {
+  color: lightskyblue;
+}
+
+.dark-mode #knowledge label {
+  color: lavender;
+}
+
+.dark-mode #experience h3 {
+  color: darkslategray;
+}
+
+.dark-mode #experience #li-0 {
+  background-color: darksalmon;
+}
+
+.dark-mode #experience #li-0 .accordion::after {
+  color: white;
+}
+
+.dark-mode #experience #li-1 {
+  background-color: slateblue;
+}
+
+.dark-mode #experience #li-1 .accordion::after {
+  color: white;
+}
+
+.dark-mode #experience #li-2 {
+  background-color: darkseagreen;
+}
+
+.dark-mode #experience #li-2 .accordion::after {
+  color: white;
+}
+
+.dark-mode #experience #li-3 {
+  background-color: #dfade6;
+}
+
+.dark-mode #experience #li-3 .accordion::after {
+  color: white;
+}
+
+.dark-mode #proyectos h3 {
+  color: darkslategray;
+}
+
+.dark-mode #proyectos p {
+  background-color: black;
+  color: dimgray;
+}
+
+.dark-mode footer {
+  background: black;
+}
+
+.dark-mode footer .footer {
+  background: black;
+  color: white;
+}
+
 #contact {
   display: block;
   margin: 20px auto;
   margin-bottom: 0px;
-  padding: 15px;
+  padding: 4.5em;
   font-family: "Roboto", Arial;
   opacity: 0.55;
   position: static;
 }
 
 #contact h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #contact h3, #contact p {
@@ -58,7 +163,8 @@
   padding-top: 45px;
   color: #21205f;
   text-shadow: 2px 2px 2px #f1a2fc;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
 }
 
 #proyectos div {
@@ -67,7 +173,7 @@
   -webkit-box-shadow: 3px 3px 3px 3px #a4a7a7;
           box-shadow: 3px 3px 3px 3px #a4a7a7;
   margin: 5px auto;
-  margin-left: 10px;
+  margin-left: 1.1em;
   margin-bottom: 15px;
   border-style: solid #456465;
   border-width: 3px;
@@ -273,7 +379,7 @@ h6 {
   display: block;
   text-align: right;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 5px;
+  padding-top: 1em;
   position: static;
 }
 
@@ -424,9 +530,9 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   color: white;
   height: 50px;
   overflow: hidden;
@@ -473,6 +579,171 @@ a:hover {
   background-color: rgba(228, 220, 220, 0.801);
 }
 
+.dark button {
+  background-color: black;
+  /* Green */
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  border-radius: 8px;
+  width: 8em;
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em;
+  text-decoration: none;
+  border: 3px solid lightsteelblue;
+  color: lightblue;
+  font-size: 0.6em;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.dark .btn {
+  height: 2em;
+  width: 2em;
+}
+
+@media (min-width: 360px) {
+  .pre {
+    position: relative;
+    left: 0.5em;
+  }
+}
+
+@media (min-width: 390px) {
+  .pre {
+    left: 7%;
+  }
+}
+
+@media (min-width: 410px) {
+  .pre {
+    left: 10%;
+  }
+}
+
+@media (min-width: 450px) {
+  .pre {
+    left: 13.5%;
+  }
+}
+
+@media (min-width: 480px) {
+  .pre {
+    left: 15%;
+  }
+}
+
+@media (min-width: 520px) {
+  .pre {
+    left: 18%;
+  }
+}
+
+@media (min-width: 550px) {
+  .pre {
+    left: 21%;
+  }
+}
+
+@media (min-width: 600px) {
+  .pre {
+    left: 23%;
+  }
+}
+
+@media (min-width: 640px) {
+  .pre {
+    left: 25%;
+  }
+  .center img {
+    left: 7%;
+  }
+}
+
+@media (min-width: 680px) {
+  .pre {
+    left: 27.5%;
+  }
+}
+
+@media (min-width: 760px) {
+  .pre {
+    left: 29%;
+  }
+}
+
+@media (min-width: 840px) {
+  .pre {
+    left: 31.5%;
+  }
+}
+
+@media (min-width: 950px) {
+  .pre {
+    left: 33%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pre {
+    left: 34%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .pre {
+    left: 35.5%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .pre {
+    left: 37%;
+  }
+}
+
+@media (min-width: 500px) {
+  .all-knows {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    gap: 0px 0px;
+  }
+  .all-knows {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .a-knows1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .a-knows2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  #knowledge {
+    height: 70vh !important;
+  }
+}
+
 #experience {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.9em;
@@ -500,9 +771,16 @@ a:hover {
   margin-bottom: 18px;
 }
 
+#experience #li-0 {
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  opacity: 0.85;
+  margin-top: 1em;
+}
+
 #experience #li-1 {
   background-color: lightblue;
-  margin-top: 18px;
   color: white;
   font-weight: bold;
   opacity: 0.85;
