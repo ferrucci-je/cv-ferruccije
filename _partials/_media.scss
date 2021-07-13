@@ -50,9 +50,15 @@
         left: 7%;
     }
 }
+@media (min-width:660px) {
+    .pre {
+        left: 26.25%;
+    }
+}
+
 @media (min-width:680px) {
     .pre {
-        left: 27.5%;
+        left: 26.5%;
     }
 }
 @media (min-width:760px) {

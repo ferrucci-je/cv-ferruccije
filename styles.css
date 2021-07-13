@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 .dark-mode #burger-list {
-  background-color: black;
+  background-color: #444;
 }
 
 .dark-mode #burger-list a {
@@ -10,7 +10,7 @@
 }
 
 .dark-mode #frame {
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0, 0.941);
 }
 
 .dark-mode .carousel {
@@ -18,15 +18,15 @@
 }
 
 .dark-mode #knowledge {
-  background-color: darkslategray;
+  background-color: currentColor;
 }
 
 .dark-mode #knowledge h3 {
-  color: lightskyblue;
+  color: whitesmoke;
 }
 
 .dark-mode #knowledge label {
-  color: lavender;
+  color: whitesmoke;
 }
 
 .dark-mode #experience h3 {
@@ -34,7 +34,7 @@
 }
 
 .dark-mode #experience #li-0 {
-  background-color: darksalmon;
+  background-color: #3a312e;
 }
 
 .dark-mode #experience #li-0 .accordion::after {
@@ -42,7 +42,7 @@
 }
 
 .dark-mode #experience #li-1 {
-  background-color: slateblue;
+  background-color: #312e44;
 }
 
 .dark-mode #experience #li-1 .accordion::after {
@@ -50,7 +50,7 @@
 }
 
 .dark-mode #experience #li-2 {
-  background-color: darkseagreen;
+  background-color: #2a3b2a;
 }
 
 .dark-mode #experience #li-2 .accordion::after {
@@ -58,7 +58,7 @@
 }
 
 .dark-mode #experience #li-3 {
-  background-color: #dfade6;
+  background-color: #3b2c3d;
 }
 
 .dark-mode #experience #li-3 .accordion::after {
@@ -70,8 +70,9 @@
 }
 
 .dark-mode #proyectos p {
-  background-color: black;
-  color: dimgray;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #616163), to(#b2b4b5));
+  background: linear-gradient(90deg, #020024 0%, #616163 35%, #b2b4b5 100%);
+  color: #e9e8e8;
 }
 
 .dark-mode footer {
@@ -532,6 +533,10 @@ a:hover {
   font-size: 0.7em;
 }
 
+.carousel #google-ads {
+  font-size: 0.5em;
+}
+
 .pre {
   font-size: 2em;
   width: 65px;
@@ -640,9 +645,15 @@ a:hover {
   }
 }
 
+@media (min-width: 660px) {
+  .pre {
+    left: 26.25%;
+  }
+}
+
 @media (min-width: 680px) {
   .pre {
-    left: 27.5%;
+    left: 26.5%;
   }
 }
 
